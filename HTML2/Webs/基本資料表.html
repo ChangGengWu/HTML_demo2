@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <style>
+        body {
+            font-family: 微軟正黑體;
+            background-color: #34495e;
+        }
+        table td {
+            background-color: #F0F0F0;
+            height: auto;
+            letter-spacing: 2px;
+            font-size: 18px;
+        }
+
+        .tablecap {
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            background-color: #93BE4B;
+            height: 20%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 32px;
+            padding-left: 3%;
+            color: #F3FEF6;
+            font-weight: bolder;
+            letter-spacing: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    </tr>
+    <form action="校內成績.html">
+        <div class="form-group">
+            </table>
+            <table border=0 class="table">
+                <tr>
+                    <th colspan="2" bgcolor=#99ffcc align="left">Step1.填寫基本資料</th>
+                </tr>
+                <tr>
+                    <td>學號:
+                        <input type="text" name="sid">
+                    </td>
+                    <td>姓名:
+                        <input type="text" name="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>身分證字號/居留證號:
+                        <input type="text" name="uid">
+                    </td>
+                    <td>英文姓名:
+                        <input type="text" name="englishName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>國籍:
+                        <select name="country">
+                            <option value="tw">台灣</option>
+                            <option value="cn">中國</option>
+                            <option value="hk">香港特別行政區</option>
+                            <option value="mo">澳門特別行政區</option>
+                            <option value="mo">聖多美普林西比</option>
+                        </select>
+                    </td>
+                    <td>性別
+                        <input type="checkbox" name="sex[]" value="男">男
+                        <input type="checkbox" name="sex[]" value="女">女</td>
+                </tr>
+                <tr>
+                    <td>生日
+                        <input type="text" name="birthday" value="年/月/日">
+                    </td>
+                    <td>手機電話
+                        <input type="number" name="phoneNumber">
+                    </td>
+                </tr>
+                <tr>
+                    <td>電子郵件
+                        <input type="text" name="userMail">
+                    </td>
+                    <td>通訊地址
+                        <input type="text" name="addres">
+                    </td>
+                </tr>
+                <tr>
+                    <td>審查資料上傳(含讀書計畫、自傳、獲獎紀錄等佐證資料,限PDF檔)</td>
+                    <td>
+                        <input type="submit" value="選擇檔案">未選擇任何檔案</td>
+                </tr>
+                <tr>
+                    <td>中文歷年成績單證明(限PDF檔):</td>
+                    <td>
+                        <input type="submit" value="選擇檔案">未選擇任何檔案</td>
+                </tr>
+                <tr>
+                    <td>言語檢定證明(限PDF檔):</td>
+                    <td>
+                        <input type="submit" value="選擇檔案">未選擇任何檔案</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                       <button type="submit">下一步</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+
+</html>

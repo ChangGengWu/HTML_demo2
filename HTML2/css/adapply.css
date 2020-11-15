@@ -1,0 +1,127 @@
+        
+        .btn {
+            width: 150px;
+            height:50px;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #e74c3c;
+            border-radius: 0.6em;
+            color: #e74c3c;
+            cursor: pointer;
+            display:relative;
+            margin: 5px;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1;
+            padding-bottom:3px;
+            text-decoration: none;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 微軟正黑體;
+            font-weight: 700;
+        }
+
+        .new {
+            font-family: 微軟正黑體;
+            letter-spacing: 1px;
+            background-color:#f1c40f;
+            border-color: #f1c40f;
+            color: #fff;
+            background-image: linear-gradient(to bottom, transparent 50%, #f2d51f 50%);
+            background-position: 0% 0%;
+            background-size: 210%;
+            transition: background 150ms ease-in-out, color 150ms ease-in-out;
+        }
+
+        .new:hover {
+            color: #fff;
+            background-position: 0 100%;
+        }
+
+        .roll {
+            font-weight: 700;
+            font-family: 微軟正黑體;
+            letter-spacing: 2px;
+            background-color:#D1212E;
+            border-color: #D1212E;
+            color: #fff;
+            background-image: linear-gradient(to bottom, transparent 50%, #e2323f 50%);
+            background-position: 0% 0%;
+            background-size: 210%;
+            transition: background 150ms ease-in-out, color 150ms ease-in-out;
+        }
+
+        .roll:hover {
+            color: #fff;
+            background-position: 0 100%;
+        }
+        .fix{
+            font-weight: 700;
+            font-family: 微軟正黑體;
+            letter-spacing: 2px;
+            width: 100px;
+            height:40px;
+            font-size: 16px;
+            background-color:#1dbb61;
+            border-radius: 0.6em;
+            border-color: #1dbb61;
+            color: #fff;
+            background-image: linear-gradient(45deg, #2ecc71 50%, transparent 50%);
+            background-position: 100%;
+            background-size: 400%;
+            transition: background 300ms ease-in-out;
+        }
+
+        .fix:hover {
+            color: #fff;
+            background-position: 0 100%;
+        }
+
+      
+        .delete {
+            font-weight: 700;
+            font-family: 微軟正黑體;
+            letter-spacing: 2px;
+            width: 100px;
+            height:40px;
+            font-size: 16px;
+            background-color:#D1212E;
+            border-radius: 0.6em;
+            border-color: #D1212E;
+            color: #fff;
+            background-image: linear-gradient(45deg, #e2323f 50%, transparent 50%);
+            background-position: 100%;
+            background-size: 400%;
+            transition: background 300ms ease-in-out;
+        }
+
+        .delete:hover {
+            color: #fff;
+            background-position: 0 100%;
+        }
+
+        .excel {
+            font-weight: 700;
+            font-family: 微軟正黑體;
+            letter-spacing: 2px;
+            width: 200px;
+            height:60px;
+            font-size: 22px;
+            background-color:#f1c40f;
+            border-radius: 0.6emf;
+            border-color: #f1c40f;
+            border-radius: 0.6em;
+            color: #fff;
+            background-image: linear-gradient(45deg, #f2d51f 50%, transparent 50%);
+            background-position: 100%;
+            background-size: 400%;
+            transition: background 300ms ease-in-out;
+        }
+
+        .excel:hover {
+            color: #fff;
+            background-position: 0 100%;
+        }

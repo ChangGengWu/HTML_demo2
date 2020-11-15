@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+
+    <style>
+			body {
+				font-family: 微軟正黑體;
+				background-color: #34495e;
+			}
+			table td {
+				background-color: #F0F0F0;
+				height: auto;
+				letter-spacing: 2px;
+				font-size: 18px;
+			}
+	
+			.tablecap {
+				border-top-right-radius: 10px;
+				border-top-left-radius: 10px;
+				background-color: #93BE4B;
+				height: 20%;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				font-size: 32px;
+				padding-left: 3%;
+				color: #F3FEF6;
+				font-weight: bolder;
+				letter-spacing: 5px;
+			}
+		</style>
+
+</head>
+
+<body>
+	<form action="選擇學校.html">
+	<table border="1" class="table">
+		<tr>
+			<td colspan="4">Step.2 填寫校內成績</td>
+		</tr>
+		<tr>
+			<td>系所</td>
+			<td>
+				<select name="系所" size="1">
+					<option value="資管">資管
+						<option value="資工">資工
+							<option value="企管">企管
+				</select>
+			</td>
+			<td>學制</td>
+			<td>
+				<select name="學制" size="1">
+					<option value="日間">日間
+						<option value="夜間">夜間
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>年級</td>
+			<td>
+				<select name="年級" size="1">
+					<option value="1">一
+						<option value="2">二
+							<option value="3">三
+								<option value="4">四
+				</select>
+			</td>
+			<td>雙主修</td>
+			<td>
+				<select name="雙主修" size="1">
+					<option value="有">有
+						<option value="無">無
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>輔系</td>
+			<td>
+				<select name="輔系" size="1">
+					<option value="有">有
+						<option value="無">無
+				</select>
+			</td>
+			<td>學程</td>
+			<td>
+				<input type="text" name="學程" size="40">
+			</td>
+		</tr>
+		<tr>
+			<td>是否同時申請其他轉學生計畫</td>
+			<td>
+				<select name="transfer" size="1">
+					<option value="是">是
+						<option value="否">否
+				</select>
+				<td></td>
+				<td></td>
+		</tr>
+		<tr>
+			<td>是否同時申請研究所</td>
+			<td>
+				<select name="study" size="1">
+					<option value="是">是
+						<option value="否">否
+				</select>
+			</td>
+
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>歷年平均成績(四捨五入取至小數點第二位)</td>
+			<td>
+				<input type="text" name="成績" size="10">
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>托福總成績(TOEFLiBT)</td>
+			<td>
+				<input type="text" name="托福" size="10"> (79~120)
+			</td>
+			<td>
+				<br>聽:</br>
+				<br>說:</br>
+				<br>讀:</br>
+				<br>寫:</br>
+			</td>
+			<td>
+				<br>
+				<input type="text" name="聽" size="10">(0~30)</br>
+				<br>
+				<input type="text" name="說" size="10">(0~30)</br>
+				<br>
+				<input type="text" name="讀" size="10">(0~30)</br>
+				<br>
+				<input type="text" name="寫" size="10">(0~30)</br>
+			</td>
+		</tr>
+		<tr>
+			<td>雅思成績(IELTS)</td>
+			<td>
+				<select name="雅思" size="1">
+					<option value="有">有
+						<option value="無">無
+				</select>
+			</td>
+			<td>
+				<br>聽:</br>
+				<br>說:</br>
+				<br>讀:</br>
+				<br>寫:</br>
+			</td>
+			<td>
+				<br>
+				<select name="聽2" size="1">
+					<option value="有">有
+						<option value="無">無
+				</select>
+				</br>
+				<br>
+				<select name="說2" size="1">
+					<option value="有">有
+						<option value="無">無
+				</select>
+				</br>
+				<br>
+				<select name="讀2" size="1">
+					<option value="有">有
+						<option value="無">無
+				</select>
+				</br>
+				<br>
+				<select name="寫2" size="1">
+					<option value="有">有
+						<option value="無">無
+				</select>
+				</br>
+			</td>
+		</tr>
+		<tr>
+			<td>多益英語(TOEIC)</td>
+			<td>
+				<input type="text" name="多益" size="10">
+			</td>
+			<td>日語檢定(JLPT)</td>
+			<td>
+				<select name="日語" size="1">
+					<option value="有">有
+						<option value="無">無
+			</td>
+		</tr>
+		<tr>
+			<td>韓語檢定(TOPIK)</td>
+			<td>
+				<select name="韓語" size="1">
+					<option value="有">有
+						<option value="無">無
+			</td>
+			<td>法語檢定(DELF)</td>
+			<td>
+				<select name="法語" size="1">
+					<option value="有">有
+						<option value="無">無
+			</td>
+		</tr>
+		<tr>
+			<td>西語檢定(DELE)</td>
+			<td>
+				<select name="西語" size="1">
+					<option value="有">有
+						<option value="無">無
+			</td>
+			<td>德語檢定(Goethe&TDN)</td>
+			<td>
+				<select name="德語" size="1">
+					<option value="有">有
+						<option value="無">無
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4"><button type="submit">下一步</button></td>
+		</tr>
+	</table>
+	</form>
+</body>
+
+</html>
